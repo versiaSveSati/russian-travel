@@ -32,7 +32,7 @@
 
 .page {
     font-family: 'Inter', 'Arial', sans-serif;
-    max-width: 1280px;
+    max-width: 1184px;
     margin: 0 auto;
     background-color: #2A2C2F;
     color: white;
@@ -64,6 +64,8 @@
 
 }
 
+
+
 .header__lang-link {
     color: white;
     max-width: 30px;
@@ -74,10 +76,16 @@
     text-decoration: none;
 }
 
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
 .header__lang-link_active {
     border-bottom: 1px solid white;
 
 }
+
+
 
 
 
@@ -220,11 +228,14 @@
 }
 
 .place__link {
-    text-decoration: none;
     color: white;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+}
+
+.place__link:hover {
+    opacity: 0.8;
 }
 
 .place__image {
@@ -247,36 +258,65 @@
 
 .cover {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     max-width: 1184px;
     min-height: 740px;
     margin: 92px auto;
     margin-bottom: 0;
     background-image: url(./images/__background.jpg);
     background-size: cover;
-    opacity: 0.3;
+    
+    
+    position: relative;
 }
 
-.cover__title {
+.cover__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    padding: 245px 312px;
     text-align: center;
+    z-index: 1;
+}
+
+
+
+
+.cover__title {
+    
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     max-width: 560px;
-    margin: 245px auto;
-    margin-bottom: 0;
+    margin: 0;
 
 }
 
 .cover__subtitle {
-    text-align: center;
+    margin: auto;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     max-width: 360px;
-    margin: 32px auto;
+    margin-top: 32px;
+    margin-bottom: 0;
 }
+
+.cover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+   
+  }
+  .cover:hover::before {
+    opacity: 0.8;
+  }
+  
 
 .footer {
     display: flex;
@@ -299,6 +339,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
 }
 
 .footer__copyright {
