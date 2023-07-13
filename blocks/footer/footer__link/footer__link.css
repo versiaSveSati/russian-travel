@@ -1,0 +1,12 @@
+.footer__link { /*каждая ссылка футер*/
+    text-decoration: none;
+    color: white;
+    font-weight: 400; 
+    font-size: 16px; /*... 320-24px*/
+    line-height: 18px; /*... 320-24px*/
+    
+}
+
+.footer__link:hover { /*---затемняшка для ссылок*/
+    opacity: 0.8;
+}

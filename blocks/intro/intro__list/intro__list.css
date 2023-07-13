@@ -1,0 +1,10 @@
+
+.intro__list { /*ul часовых поясов...*/
+    margin: 0;
+    padding: 0;
+    font-weight: 700; 
+    font-size: 12px; 
+    line-height: 18px; 
+    max-width: 690px; /*... 768-720px, 320-288px*/
+    list-style: none;
+}

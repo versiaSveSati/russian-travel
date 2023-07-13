@@ -1,0 +1,5 @@
+.header__lang-links { /*ссылки ру, ин в шапке*/
+    display: flex;
+    gap: 18px; 
+
+}

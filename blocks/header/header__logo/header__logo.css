@@ -1,0 +1,5 @@
+.header__logo { /*логотип в шапке*/
+    width: 176px; /*... 320-142px*/
+    height: 52px; /*... 320-42px*/
+    background-image: url(./images/__logo.png);
+}

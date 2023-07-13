@@ -1,0 +1,13 @@
+
+.header__lang-link { /*ссылки по отдельности в шапке*/
+    color: white;
+    max-width: 30px; /*... 320-22px*/
+    font-size: 24px; /*... 320-18px*/
+    line-height: 28px; /*... 320-20px*/
+    font-weight: 400; 
+    text-decoration: none;
+}
+
+.header__lang-link:hover { /*---затемняшка для ссылоквшапке*/
+    opacity: 0.8;
+}

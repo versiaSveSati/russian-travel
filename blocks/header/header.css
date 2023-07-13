@@ -1,0 +1,9 @@
+.header { /*ШАПКА*/
+    display: flex;
+    max-width: 1184px; /*1024px, 768px, 320px*/
+    padding-top: 28; /*... 320-16px*/
+    padding-left: 48;  /*... 768-24px, 320-16px*/
+    padding-right: 48; /*... 768-24px, 320-16px*/
+    justify-content: space-between;
+    align-items: flex-end;
+}

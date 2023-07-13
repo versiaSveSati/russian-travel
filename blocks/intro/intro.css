@@ -1,0 +1,10 @@
+.intro { /*ЧЕГО МЫ ТАМ НЕ ВИДЕЛИ*/
+
+    padding-top: 92px; /*...768-88px, 320-64px*/
+    padding-left: 148px; /*1024-48px, 768-24px, 320-16px*/
+    /*padding-right: ...? 768-24px, 320-16px*/
+    box-sizing: border-box;
+    max-width: 100%; /*...? 768-720px, 320-288px*/
+  
+
+}

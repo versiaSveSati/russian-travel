@@ -1,0 +1,6 @@
+.place__url-heading { /*url*/
+    color: #AAAAAA;
+    font-weight: 400; 
+    font-size: 12px; /* 320-12px*/
+    line-height: 20.4px; /* 320-12px*/
+}

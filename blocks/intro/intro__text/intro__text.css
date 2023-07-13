@@ -1,0 +1,9 @@
+.intro__text { /*текст под заголовком*/
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 26.08px; 
+    margin-top: 40px; 
+    margin-bottom: 33px; /*... 320-34px*/
+    max-width: 690px; /*... 768-720px, 320-288px*/
+   
+}

@@ -1,0 +1,5 @@
+.footer__links { /*ссылки футер*/
+    display: flex;
+    gap: 18px; /*... 320-32px*/
+    margin-right: 0;
+    }

@@ -1,0 +1,9 @@
+.place__paragraphs { /*абзацы для мест*/
+    font-weight: 400; 
+    font-size: 18px; /*... 320-16px*/
+    line-height: 29.34px; /*... 320-26.08*/
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 26px; /*1024-27px, 768-25px, 320-25px*/
+}

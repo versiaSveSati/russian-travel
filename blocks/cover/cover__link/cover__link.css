@@ -1,0 +1,12 @@
+.cover__link {
+    /*заголовок+подзаголовок байкал*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    text-decoration: none;
+    width: 100%;
+
+    /*паддинги 1024-195px 232px, 768-115px 104px, 320-33 px 16px*/
+}

@@ -1,0 +1,7 @@
+.place__title { /*заголовок мест*/
+    max-width: 460px; /*1024-440px, 768-340px, 320-288px*/
+    margin: 0;
+    font-weight: 900; 
+    font-size: 72px; /*... 768-42px, 320-32px*/
+    line-height: 76px; /*... 768-46px, 320-35px*/
+}

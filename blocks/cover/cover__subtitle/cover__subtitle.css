@@ -1,0 +1,16 @@
+
+.cover__subtitle { /*подзаголовок байкал*/
+    max-width: 360px;
+    margin: 32px auto 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+     /*font-size: 18px;... 320-14px*/
+     /*line-height: 22px; /*... 320-16px*/
+     /*max-width: 360px; /*... 320-288px*/
+    /* margin-top: 32px; /*... 320-16px*/
+   
+}

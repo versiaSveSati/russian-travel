@@ -1,0 +1,10 @@
+.photo-grid { /*КОЛЛАЖ*/
+    display: grid;
+    justify-items: center;
+    max-width: 1184px; /*1024-928px, 768-720px, 320-288px*/
+    grid-template-columns: repeat(4, 1fr); /*1024-repeat(3, 1fr), 768-repeat(2, 1fr), 320-1fr*/
+    padding: 92px 48px; /*... 768-88px 24px, 320-64px 16px*/
+    box-sizing: border-box;
+    gap: 16px; /*1024-, 768-, 320-*/
+
+}

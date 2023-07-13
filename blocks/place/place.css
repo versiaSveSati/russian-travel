@@ -1,0 +1,6 @@
+.place { /*каждое место*/
+    display: grid;
+    grid-template-columns: max(460px) 1fr; /*1024-max(440px) 1fr, 768-max(340px) 1fr, 320-max(320px) 1fr*/
+    column-gap: 40px; /*1024-32px, 768-28px, 320-32px*/
+    row-gap: 48px; /*?*/
+}

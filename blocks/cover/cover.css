@@ -1,0 +1,27 @@
+.cover { /*БАЙКАЛ*/
+    width: 1184px;
+    min-height: 740px;
+    margin: 92px auto 0;
+    background-image: url(./images/__background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+        
+}
+
+.cover::before { /*---затемняшка байкал*/
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+   
+  }
+  .cover:hover::before { /*---затемняшка байкал*/
+    opacity: 0.8;
+  }
+  

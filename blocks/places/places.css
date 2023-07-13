@@ -1,0 +1,7 @@
+.places { /*МЕСТА*/
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 80px; /*... 768-73px, 320-50px*/
+    max-width: 984px; /*1024-928px, 768-720px, 320-320px*/
+    margin: auto;
+}

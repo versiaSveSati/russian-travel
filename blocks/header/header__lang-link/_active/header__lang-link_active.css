@@ -1,0 +1,5 @@
+
+.header__lang-link_active { /*---активная ссылка в шапке*/
+    border-bottom: 1px solid white;
+
+}

@@ -1,0 +1,9 @@
+
+
+.intro__title { /*заголовок*/
+    font-weight: 900; 
+    font-size: 54px; /*... 768-, 320-32px*/
+    line-height: 58px; /*... 320-35px*/
+    max-width: 690px; /*... 768-720px, 320-288px*/
+    margin: 0;
+}
