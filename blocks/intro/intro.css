@@ -1,9 +1,7 @@
 .intro {
     /*ЧЕГО МЫ ТАМ НЕ ВИДЕЛИ*/
-    padding-top: 92px;
-    padding-left: 148px;
-    box-sizing: border-box;
-    max-width: 100%;
+    margin: 92px auto 0 148px;
+    max-width: 690px;
 
 }
 
