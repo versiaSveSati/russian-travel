@@ -4,25 +4,20 @@
     grid-template-columns: 1fr;
     gap: 80px;
     max-width: 984px;
-    margin: auto;
+    margin: 92px auto;
 }
 
-@media screen and (max-width: 1024px) {
-    .places {
-        max-width: 928px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .places {
         gap: 73px;
-        max-width: 768-720px;
+        margin: 88px auto;
     }
 }
 
 @media screen and (max-width: 320px) {
     .places {
         gap: 50px;
-        max-width: 320px;
+        margin: 64px auto;
     }
 }

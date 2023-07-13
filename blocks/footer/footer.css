@@ -2,15 +2,20 @@
     /*ФУТЕР*/
     display: flex;
     justify-content: space-between;
-    padding: 92px 48px 24px 48px;
+    margin: 92px 48px 24px 48px;
 }
 
 @media screen and (max-width: 768px) {
     .footer {
-        padding: 88px 24px 24px 24px;
+        margin: 88px 24px 24px 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .footer {}
+    .footer {
+        flex-direction: column;
+        margin-top: 64px;
+        margin-left: 16px;
+    }
+}
 }

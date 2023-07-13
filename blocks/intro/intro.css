@@ -1,32 +1,24 @@
-.intro {
-    /*ЧЕГО МЫ ТАМ НЕ ВИДЕЛИ*/
+.intro { /*ЧЕГО МЫ ТАМ НЕ ВИДЕЛИ*/
+    max-width: 100%;
     margin: 92px auto 0 148px;
-    max-width: 690px;
-
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        padding-left: 48px;
-        /*padding-right: ...? 768-24px, 320-16px*/
-        /*max-width: ...? 768-720px, 320-288px*/
+        margin-left: 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        padding-top: 88px;
-        padding-left: 24px;
-        /*padding-right: ...? 768-24px, 320-16px*/
-        /*max-width: ...? 768-720px, 320-288px*/
+        max-width: 720px;
+        margin: 88px auto 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro {
-        padding-top: 64px;
-        padding-left: 16px;
-        /*padding-right: ...? 768-24px, 320-16px*/
-        /*max-width: ...? 768-720px, 320-288px*/
+        width: 90%;
+        margin-top: 64px;
     }
 }

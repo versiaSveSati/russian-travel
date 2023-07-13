@@ -6,8 +6,10 @@
     line-height: 1.14;
 }
 
-@media screen and (max-width: 320px) {
-    .footer__copyrigh {
+@media screen and (max-width: 478px) {
+    .footer__copyright {
+        margin-top: 48px;
+        font-size: 14px;
         line-height: 1;
     }
 }

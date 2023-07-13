@@ -1,32 +1,34 @@
-.photo-grid {
-    /*КОЛЛАЖ*/
-    margin: 92px auto;
-    max-width: 1184px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 284px);
-    justify-content: center;
-}
-
-@media screen and (max-width: 1024px) {
     .photo-grid {
-        max-width: 928px;
-        grid-template-columns: repeat(3, 1fr);
+        /*КОЛЛАЖ*/
+        margin: 92px auto 0;
+        max-width: 1184px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 284px);
+        justify-content: center;
+        gap: 16px;
     }
-}
 
-@media screen and (max-width: 768px) {
-    .photo-grid {
-        max-width: 720px;
-        grid-template-columns: repeat(2, 1fr);
-        margin: 88px auto;
+    @media screen and (max-width: 1024px) {
+        .photo-grid {
+            max-width: 928px;
+            gap: 14px;
+            grid-template-columns: repeat(auto-fit, 300px);
+        }
     }
-}
 
-@media screen and (max-width: 320px) {
-    .photo-grid {
-        max-width: 288px;
-        grid-template-columns: 1fr;
-        padding: 64px auto;
-        gap: 12px;
+    @media screen and (max-width: 768px) {
+        .photo-grid {
+            mx-width: 720px;
+            gap: 16px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 352px));
+            margin-top: 88px;
+        }
     }
-}
+
+    @media screen and (max-width: 320px) {
+        .photo-grid {
+            margin-top: 64px;
+            max-width: 288px;
+            grid-template-columns: repeat(auto-fit, 100%);
+        }
+    }
