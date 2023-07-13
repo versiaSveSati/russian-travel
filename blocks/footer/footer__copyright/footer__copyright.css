@@ -1,8 +1,13 @@
-.footer__copyright { /*автор футер*/
-
-    padding-top: 2px; 
-    font-weight: 400; 
-    font-size: 14px; 
-    line-height: 16px; /*... 320-14px*/
+.footer__copyright {
+    /*автор футер*/
+    padding-top: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
+@media screen and (max-width: 320px) {
+    .footer__copyrigh {
+        line-height: 1;
+    }
+}

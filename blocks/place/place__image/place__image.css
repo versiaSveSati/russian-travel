@@ -1,4 +1,23 @@
 .place__image {
-    max-width: 460px; /*картинка места*/
-     /*1024-440px, 768-340px, 320-320px*/
+    /*картинка места*/
+    max-width: 460px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        max-width: 320px;
+    }
 }

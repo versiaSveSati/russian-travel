@@ -1,5 +1,13 @@
-.header__logo { /*логотип в шапке*/
-    width: 176px; /*... 320-142px*/
-    height: 52px; /*... 320-42px*/
+.header__logo {
+    /*логотип в шапке*/
+    width: 176px;
+    height: 52px;
     background-image: url(./images/__logo.png);
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
 }

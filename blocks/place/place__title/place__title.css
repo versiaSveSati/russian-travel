@@ -1,7 +1,30 @@
-.place__title { /*заголовок мест*/
-    max-width: 460px; /*1024-440px, 768-340px, 320-288px*/
+.place__title {
+    /*заголовок мест*/
+    max-width: 460px;
     margin: 0;
-    font-weight: 900; 
-    font-size: 72px; /*... 768-42px, 320-32px*/
-    line-height: 76px; /*... 768-46px, 320-35px*/
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        max-width: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 1.09;
+    }
 }

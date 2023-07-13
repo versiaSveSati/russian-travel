@@ -1,9 +1,30 @@
-.place__paragraphs { /*абзацы для мест*/
-    font-weight: 400; 
-    font-size: 18px; /*... 320-16px*/
-    line-height: 29.34px; /*... 320-26.08*/
+.place__paragraphs {
+    /*абзацы для мест*/
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.63;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    gap: 26px; /*1024-27px, 768-25px, 320-25px*/
+    gap: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+        gap: 27px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 1.63;
+        gap: 25px;
+    }
 }

@@ -1,6 +1,28 @@
-.lead { /*ПУТЕШЕСТВИЯ О РОССИИ*/
+.lead {
+    /*ПУТЕШЕСТВИЯ О РОССИИ*/
     display: flex;
     flex-direction: column;
-    padding: 56px 148px 0 148px; /*1024-48px 48px 0 48px, 768-48px 0 0 0, 320-48px 2px 0 2px*/
-    max-width: 984px; /*1024-928px, 768-768px, 320-320px*/
+    padding: 56px 148px 0 148px;
+    max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        padding: 48px 48px 0 48px;
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        padding: 48px 0 0 0;
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        padding: 48px 2px 0 2px;
+        max-width: 320px;
+    }
 }

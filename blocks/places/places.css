@@ -1,7 +1,28 @@
-.places { /*МЕСТА*/
+.places {
+    /*МЕСТА*/
     display: grid;
     grid-template-columns: 1fr;
-    gap: 80px; /*... 768-73px, 320-50px*/
-    max-width: 984px; /*1024-928px, 768-720px, 320-320px*/
+    gap: 80px;
+    max-width: 984px;
     margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        gap: 73px;
+        max-width: 768-720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        gap: 50px;
+        max-width: 320px;
+    }
 }

@@ -1,9 +1,31 @@
-.lead__subtitle { /*подзаголовок в путешествиях*/
+.lead__subtitle {
+    /*подзаголовок в путешествиях*/
     text-align: center;
-    max-width: 640px; /*... 320-288px*/
-    font-weight: 400; 
-    font-size: 30px; /*... 320-16px*/
-    line-height: 36px; /*... 320-20px*/
-    margin: 32px auto 64px; /*1024-32px auto 56px, 768-32px auto 56px, 320-16px auto 40px*/
+    max-width: 640px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 32px auto 64px;
 
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        margin: 32px auto 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+        margin: 32px auto 56px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__subtitle {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 1.25;
+        margin: 16px auto 40px;
+    }
 }
