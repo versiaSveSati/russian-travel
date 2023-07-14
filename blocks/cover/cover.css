@@ -3,7 +3,7 @@
   max-width: 1184px;
   min-height: 740px;
   margin: 92px auto 0;
-  background-image: url(../../../images/__background.jpg);
+  background-image: url(../../images/__background.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -30,8 +30,10 @@
 
 
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
   .cover {
+    max-width: 320px;
+    min-height: 200px;
 
     margin: 66px auto 0;
   }

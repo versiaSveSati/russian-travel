@@ -4,25 +4,33 @@
     grid-template-columns: max(460px) 1fr;
     column-gap: 40px;
     row-gap: 48px;
+    margin-top: 80px;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: 1024-max(440px) 1fr;
+        max-width: 1024px;
+        grid-template-columns: max(440px) 1fr;
         column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
+        max-width: 768px;
         grid-template-columns: max(340px) 1fr;
         column-gap: 28px;
+        margin-top: 73px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 730px) {
     .place {
-        grid-template-columns: max(320px) 1fr;
-        row-gap: 32px;
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 50px;
     }
 }

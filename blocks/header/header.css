@@ -2,7 +2,7 @@
     /*ШАПКА*/
     display: flex;
     max-width: 1184px;
-    padding: 28px 48px 0 48px;
+    margin: 28px 48px 0 48px;
     justify-content: space-between;
     align-items: flex-end;
 }
