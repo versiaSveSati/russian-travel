@@ -17,9 +17,9 @@
 
 @media screen and (max-width: 900px) {
     .places {
-        max-width: 900px;
-        grid-template-columns: 100%;
-          
+        max-width: calc(100vh - 48px);
+        grid-template-columns: max(300px) 1fr;
+       
     }
 }
 
@@ -28,18 +28,28 @@
         max-width: 768px;
         grid-template-columns: max(340px) 1fr;
         column-gap: 28px;
-        margin-top: 73px;
+        margin: 73px auto;
     }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 550px) {
+    .place {
+        max-width: calc(100vh - 42px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
     .place {
         max-width: 320px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 32px;
-        margin-top: 50px;
+        margin: 50px auto;
         
     
     }
