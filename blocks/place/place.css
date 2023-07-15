@@ -19,7 +19,7 @@
     .places {
         max-width: calc(100vh - 48px);
         grid-template-columns: max(300px) 1fr;
-       
+
     }
 }
 
@@ -50,7 +50,7 @@
         justify-content: center;
         gap: 32px;
         margin: 50px auto;
-        
-    
+
+
     }
 }

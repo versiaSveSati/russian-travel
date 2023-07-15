@@ -1,12 +1,13 @@
-.header__lang-links { /*ссылки ру, ин в шапке*/
-    display: flex;
-    gap: 18px; 
+.header__lang-links {
+  /*ссылки ру, ин в шапке*/
+  display: flex;
+  gap: 18px;
 
 }
 
 @media screen and (max-width: 320px) {
 
-    .header__lang-links {
-      margin-bottom: 8px;
-    }
+  .header__lang-links {
+    margin-bottom: 8px;
+  }
 }

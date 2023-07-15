@@ -1,4 +1,5 @@
-.lead__caption {  /*ваша полка верхняя*/
+.lead__caption {
+    /*ваша полка верхняя*/
     max-width: fit-content;
     font-weight: 400;
     font-size: 10px;

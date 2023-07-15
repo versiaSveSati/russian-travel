@@ -1,3 +1,4 @@
-.photo-grid__item { /*каждое фото в коллаже*/
+.photo-grid__item {
+    /*каждое фото в коллаже*/
     max-width: 100%;
 }

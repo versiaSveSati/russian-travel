@@ -1,11 +1,12 @@
-.place__link { /*сайт*/
+.place__link {
+    /*сайт*/
     color: white;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px; 
+    line-height: 22px;
 }
 
-.place__link:hover { /*---затемняшка для сайтов*/
+.place__link:hover {
+    /*---затемняшка для сайтов*/
     opacity: 0.8;
 }
-
