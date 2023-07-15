@@ -11,11 +11,21 @@
 }
 
 
-
 @media screen and (max-width: 768px) {
     .places {
-        max-width: calc(100vw - 48px);
+        max-width: 720px;
+    }
+}
 
+@media screen and (max-width: 700px) {
+    .places {
+        max-width: 634px;
+    }
+}
+
+@media screen and (max-width: 608px) {
+    .places {
+        max-width: 551px;
     }
 }
 

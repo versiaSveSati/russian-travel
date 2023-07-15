@@ -32,7 +32,8 @@
     }
 }
 
-@media screen and (max-width: 550px) {
+
+@media screen and (max-width: 610px) {
     .place {
         max-width: calc(100vh - 42px);
         display: flex;
