@@ -20,12 +20,14 @@
         <main class="content">
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
-                <h3 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
-                <img src="./images/__image.png" alt="фото девушки в поезде, график маршрута" class="lead__image">
-                <p class="lead__caption">ваша полка — верхняя</p>
+                <figcaption> class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</figcaption>
+                <figure>
+                    <img src="./images/__image.png" alt="фото девушки в поезде, график маршрута" class="lead__image">
+                    <p class="lead__caption">ваша полка — верхняя</p>
+                </figure>
             </section>
             <section class="intro">
-                <h3 class="intro__title">Чего мы там не видели?</h3>
+                <h2 class="intro__title">Чего мы там не видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
                     планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия
                     — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А
@@ -34,11 +36,11 @@
                     в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
                     интересные места, достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                    <li>Часовых поясов <span class="intro__list intro__list_number">11</span></li>
-                    <li>Объектов природного наследия ЮНЕСКО <span class="intro__list intro__list_number">12</span></li>
-                    <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list_number">16</span></li>
-                    <li>Природных заповедников <span class="intro__list intro__list_number">105</span></li>
-                    <li>Аэропортов <span class="intro__list intro__list_number">241</span></li>
+                    <li>Часовых поясов <span class="intro__list-bold">11</span></li>
+                    <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-bold">12</span></li>
+                    <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-bold">16</span></li>
+                    <li>Природных заповедников <span class="intro__list-bold">105</span></li>
+                    <li>Аэропортов <span class="intro__list-bold">241</span></li>
                 </ul>
             </section>
             <section class="photo-grid">
@@ -178,17 +180,18 @@
                 </a>
 
             </section>
-            <footer class="footer">
-                <div class="footer__links">
-                    <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
-                    <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
-                    <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
-                    <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
-                    <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
-                </div>
-                <div class="footer__copyright">© 2023. Светлана Левадная</div>
-            </footer>
         </main>
+        <footer class="footer">
+            <nav class="footer__links">
+                <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
+                <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
+                <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
+                <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
+                <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
+            </nav>
+            <div class="footer__copyright">© 2023. Светлана Левадная</div>
+        </footer>
+
     </div>
 </body>
 
