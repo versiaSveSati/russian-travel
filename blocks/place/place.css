@@ -4,7 +4,7 @@
     grid-template-columns: max(460px) 1fr;
     column-gap: 40px;
     row-gap: 48px;
-    margin-top: 80px;
+    margin: 80px auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -40,5 +40,7 @@
         justify-content: center;
         gap: 32px;
         margin-top: 50px;
+        
+    
     }
 }

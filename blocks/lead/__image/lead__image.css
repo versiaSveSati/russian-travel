@@ -1,6 +1,7 @@
 .lead__image {
     /*фото девушки*/
     max-width: 984px;
+    margin: 0;
 }
 
 @media screen and (max-width: 1024px) {

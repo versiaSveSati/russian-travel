@@ -2,6 +2,7 @@
     /*ПУТЕШЕСТВИЯ О РОССИИ*/
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 56px 148px 0 148px;
     max-width: 984px;
 }
