@@ -15,6 +15,14 @@
     }
 }
 
+@media screen and (max-width: 950px) {
+    .places {
+        max-width: 950px;
+        grid-template-columns: 100%;
+          
+    }
+}
+
 @media screen and (max-width: 768px) {
     .place {
         max-width: 768px;

@@ -1,6 +1,6 @@
 .footer__copyright {
     /*автор футер*/
-    padding-top: 2px;
+    margin: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
@@ -8,8 +8,7 @@
 
 @media screen and (max-width: 478px) {
     .footer__copyright {
-       
-        font-size: 14px;
+        margin-top: 48px;
         line-height: 1;
     }
 }
