@@ -1,13 +1,11 @@
 .place__paragraphs {
     /*абзацы для мест*/
+    margin: 0;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
+    font-size: 16px;
+    line-height: 26.8px;
 }
+
 
 @media screen and (max-width: 1024px) {
     .place__paragraph {
@@ -23,6 +21,7 @@
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
-        font-size: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }

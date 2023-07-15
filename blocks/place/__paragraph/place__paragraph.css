@@ -1,14 +1,6 @@
-.place__paragraph {
-    /*---каждый абзац*/
+.place__paragraph { /*---каждый абзац*/
     margin: 0;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26.8px;
-}
-
-@media screen and (max-width: 320px) {
-    .place__paragraph {
-        margin-left: 16px;
-        margin-right: 16px;
-    }
+    line-height: 26.8px; 
 }

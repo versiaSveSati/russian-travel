@@ -35,11 +35,36 @@
   }
 }
 
+
 @media screen and (max-width: 768px) {
   .cover {
     max-width: 768px;
     min-height: 480px;
     margin: 90px auto 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cover {
+    max-width: 650px;
+    min-height: 406px;
+  }
+}
+
+
+@media screen and (max-width: 544px) {
+  .cover {
+    max-width: 544px;
+    min-height: 340px;
+
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .cover {
+    max-width: 440px;
+    min-height: 275px;
+
   }
 }
 
